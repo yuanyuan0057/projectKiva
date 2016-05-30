@@ -7,11 +7,9 @@ from datetime import datetime
 import numpy as np
 import tensorflow as tf
 from tensorflow.python.framework import ops
-from q2_initialization import xavier_weight_init
 import data_utils.utils as du
 import data_utils.ner as ner
 from utils import data_iterator
-from model import LanguageModel
 import nltk
 import pandas as pd
 import unicodedata
