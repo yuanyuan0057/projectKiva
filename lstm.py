@@ -8,7 +8,6 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.framework import ops
 from tensorflow.models.rnn import rnn, rnn_cell
-from q2_initialization import xavier_weight_init
 import data_utils.utils as du
 import data_utils.ner as ner
 from utils import data_iterator
